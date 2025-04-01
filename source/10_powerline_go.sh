@@ -1,7 +1,4 @@
-if [[ "$(which powerline-go)" ]]; then
-  # Installed by homebrew on MacOS
-  powerline_go_cmd=powerline-go
-elif [[ -x ${GOPATH:-~/go}/bin/powerline-go ]]; then
+if [[ -x ${GOPATH:-~/go}/bin/powerline-go ]]; then
   # Installed manually (for now) via
   # go get -u github.com/justjanne/powerline-go
   powerline_go_cmd=${GOPATH:-~/go}/bin/powerline-go

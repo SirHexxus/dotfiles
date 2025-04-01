@@ -388,7 +388,7 @@ function do_stuff() {
 # Enough with the functions, let's do stuff.
 
 # Set the prompt delay to be longer for the very first run.
-export prompt_delay=5; is_dotfiles_bin || prompt_delay=15
+export prompt_delay=10; is_dotfiles_bin || prompt_delay=30
 
 # Keep-alive: update existing sudo time stamp if set, otherwise do nothing.
 # Note that this doesn't work with Homebrew, since brew explicitly invalidates
